@@ -677,12 +677,12 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #FFB36F;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 50%;
+  border-radius: 20%;
   text-align: center;
   width: 36px;
   height: 36px;
@@ -690,8 +690,11 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
-  color: #fff;
+  background: #fff;
+  color: #FFB36F;
+	outline-color: #FFB36F;
+	outline: solid;
+	outline-width: 2px;
   text-decoration: none;
 }
 
