@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #0563bb;
+  color: #FFB36F;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
+  color: #FFB36F;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #FFB36F;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,8 +57,17 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
-  color: #fff;
+  background: #fff;
+  color: #FFB36F;
+  outline: solid;
+  outline-width: 1px;
+  outline-color: #FFB36F;
+}
+
+.back-to-top i:hover {
+  font-size: 28px;
+  color: #FFB36F;
+  line-height: 0;
 }
 
 .back-to-top.active {
