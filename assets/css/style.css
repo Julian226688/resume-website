@@ -44,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #D7A165;
+  background: #5DB02E;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -58,16 +58,16 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #fff;
-  color: #D7A165;
+  background: transparent;
+  color: #5DB02E;
   outline: solid;
   outline-width: 1px;
-  outline-color: #D7A165;
+  outline-color: #5DB02E;
 }
 
 .back-to-top i:hover {
   font-size: 28px;
-  color: #D7A165;
+  color: #5DB02E;
   line-height: 0;
 }
 
@@ -224,7 +224,7 @@ h6 {
   background-color: transparent;
 	outline: solid;
 	outline-width: 2px;
-	outline-color: #FFB36F;
+	outline-color: #D7A165;
 }
 
 .nav-menu a:hover span,
@@ -382,7 +382,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #fff;
+  color: #D7A165;
 }
 
 .section-title h2::before {
@@ -391,7 +391,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #6FD138;
+  background: #E9D7C3;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -402,7 +402,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #6FD138;
+  background: #E9D7C3;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -416,7 +416,7 @@ section {
 --------------------------------------------------------------*/
 
 .text-1 {
-	color: #E2BD93;
+	color: #E7D5BE;
 }
 
 .row {
@@ -426,15 +426,15 @@ section {
 }
 
 .text-2 {
-	color: #D7A165;
+	color: #E7D5BE;
 }
 
 .text-3 {
-	color: #E2BD93;
+	color: #E7D5BE;
 }
 
 .text-4 {
-	color: #E2BD93;
+	color: #E7D5BE;
 }
 
 .about .content h3 {
@@ -486,7 +486,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #E2BD93;
 }
 
 .skills .progress .skill .val {
@@ -495,14 +495,14 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f2f3f5;
+  background: #E7D5BE;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #D7A165;
+  background-color: #5DB02E;
 	outline: solid;
 	outline-width: 5px;
 	outline-color: rgba(53,36,16,1.00);
@@ -522,7 +522,8 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #D7A165;
+  border-left: 2px solid #5DB02E;
+	color: #E7D5BE;
   position: relative;
 }
 
@@ -539,10 +540,10 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #rgba(53,36,16,1.00);
+  background: rgba(53,36,16,1.00);
 	outline: solid;
 	outline-color: #E2BD93;
-	color: #E2BD93;
+	color: #E7D5BE;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -569,8 +570,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #D7A165;
-  border: 2px solid #D7A165;
+  background: rgba(53,36,16,1.00);
+  border: 2px solid #5DB02E;
 }
 
 /*--------------------------------------------------------------
